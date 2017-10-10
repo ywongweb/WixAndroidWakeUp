@@ -6,13 +6,13 @@
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"logcat": "$ANDROID_HOME/platform-tools/adb logcat *:S ReactNative:V ReactNativeJS:V",
 		"shake": "$ANDROID_HOME/platform-tools/adb devices | grep '\\t' | awk '{print $1}' | sed 's/\\s//g' | xargs -I {} $ANDROID_HOME/platform-tools/adb -s {} shell input keyevent 82",
-		"install": "react-native run-android --variant=release",
+		"installRelease": "react-native run-android --variant=release",
 		"test": "jest"
 	},
 	"dependencies": {
 		"react": "16.0.0-alpha.12",
 		"react-native": "0.48.4",
-		"react-native-navigation": "^1.1.233"
+		"react-native-navigation": "1.1.235"
 	},
 	"devDependencies": {
 		"babel-jest": "21.2.0",
