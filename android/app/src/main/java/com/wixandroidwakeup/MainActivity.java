@@ -1,5 +1,8 @@
 package com.wixandroidwakeup;
 
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.content.Intent;
 import com.reactnativenavigation.controllers.SplashActivity;
 
 public class MainActivity extends SplashActivity {

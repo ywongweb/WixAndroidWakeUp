@@ -11,6 +11,8 @@ import com.facebook.soloader.SoLoader;
 import java.util.Arrays;
 import java.util.List;
 import com.reactnativenavigation.NavigationApplication;
+import android.app.Activity;
+import android.os.Bundle;
 
 public class MainApplication extends NavigationApplication {
 
