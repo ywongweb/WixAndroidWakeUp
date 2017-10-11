@@ -16,6 +16,8 @@
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
       android:theme="@style/AppTheme">
+        <meta-data android:name="com.bugsnag.android.API_KEY"
+                   android:value="f633312f9cea4697796bf4c241a157a8"/>
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"

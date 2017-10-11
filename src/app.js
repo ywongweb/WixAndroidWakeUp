@@ -1,8 +1,12 @@
-import { Navigation } from 'react-native-navigation'
+import { Platform } from 'react-native'
+import { Navigation, NativeEventsReceiver } from 'react-native-navigation'
+import { Client } from 'bugsnag-react-native';
 import {
   registerScreens,
   registerScreenVisibilityListener,
 } from './routes/screens'
+
+const bugsnag = new Client();
 
 // screen related book keeping
 registerScreens()
